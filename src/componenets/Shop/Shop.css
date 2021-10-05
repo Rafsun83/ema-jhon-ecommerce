@@ -1,0 +1,21 @@
+.Shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-container{
+    border-right: 1px solid lightgrey;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.order-container{
+    height: 100%;
+}
+.orders-item{
+    top: 4%;
+    position: sticky;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+}

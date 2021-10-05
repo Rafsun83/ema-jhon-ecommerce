@@ -1,0 +1,24 @@
+.emajhon-logo{
+    height: 100px;
+    align-items: center;
+    
+}
+.Header{
+    text-align: center;
+}
+.headernav{
+    background-color: black;
+   
+}
+.headernav a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+    margin-right: 20px;
+    font-weight: 600;
+    
+}
+.headernav a:hover{
+    color: cadetblue;
+}
