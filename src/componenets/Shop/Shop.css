@@ -16,6 +16,16 @@
     border: 1px solid gray;
     margin-top: 1rem;
     padding: 1rem;
-    background-color: cornflowerblue;
+    /* background-color: papayawhip; */
     border-radius: 3px;
+}
+.Search-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.Search-container input {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
 }

@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     column-gap: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding: 30px;
 
 }
-.product-details{
 
-}
 .price{
     font-weight: 700;
 }
@@ -17,4 +17,16 @@
   border: 1px solid lightgray;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.product_image{
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.product__rating{
+  margin-bottom: .5rem;
+}
+.Rating__icon{
+  color: goldenrod;
 }

@@ -7,7 +7,7 @@
     text-align: center;
 }
 .headernav{
-    background-color: black;
+   
    
 }
 .headernav a{
@@ -21,4 +21,10 @@
 }
 .headernav a:hover{
     color: cadetblue;
+}
+.header_search{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
 }

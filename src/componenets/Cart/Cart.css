@@ -1,0 +1,8 @@
+.Cart__container p{
+    font-weight: 700;
+
+}
+.Order_summary{
+    border-bottom: 2px solid lightgray;
+    padding: 5px;
+}
