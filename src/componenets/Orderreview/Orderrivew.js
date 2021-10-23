@@ -19,9 +19,10 @@ const Orderrivew = () => {
     }
 
     const handlePlaceOrder = () => {
-        history.push("/placeorder")
-        setCart([])
-        clearTheCart()
+        history.push("/shipping")
+
+        // setCart([])
+        // clearTheCart()
 
     }
 
@@ -38,7 +39,7 @@ const Orderrivew = () => {
             <div className="order-container">
                 <div className="orders-item">
                     <Cart cart={cart}>
-                        <button onClick={handlePlaceOrder} className="purchase-btn">Place Order</button>
+                        <button onClick={handlePlaceOrder} className="purchase-btn">Process to shipping</button>
                     </Cart>
                 </div>
 
